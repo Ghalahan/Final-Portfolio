@@ -34,8 +34,10 @@ body {
 }
 
 .nav a {
-	text-decoration: none;
-	color: #000
+	text-decoration: underline;
+	color: #000;
+	font-size: 1.5em;
+
 }
 
 .social-link img {
@@ -44,7 +46,7 @@ body {
 
 #about {
 	display: flex;
-	background-color: #F6D2B8;
+	background-color: #A8D5D8;
 	padding-inline: 100px;
 	padding-block: 100px;
 	position: relative;
@@ -52,7 +54,7 @@ body {
 
 .picture.left::before {
 	content: ' ';
-	background-color: #E5975F;
+	background-color: #1C6474;
 	width: 374px;
 	height: 329px;
 	position: absolute;
@@ -69,6 +71,7 @@ body {
 
 .picture img {
 	width: 100%;
+	border-radius: 30px;
 
 }
 #about-me {
@@ -90,12 +93,29 @@ body {
 	font-size: 14px;
 }
 
+.gallery{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 50px;
+	border-radius: 30px;
+	padding: 10px;
+}
+.gallery img{
+object-fit: cover;
+height:300px ;
+width: 100%;
+border-radius: 30px;
+}
+
 #gallery {
 	/*	min-height: 100vh; */
 }
 .title{
 	text-align: center;
 	padding-block: 2em;
+	z-index: 10;
+	position: relative;
+	text-decoration: underline;
 }
 .gallery .nav {
 	justify-content: center;
@@ -142,6 +162,7 @@ body {
 	width: 70%;
 	margin: auto;
 	padding-block: 3em;
+	text-align: center;
 }
 .quote__text {
 	font-family: Spectral;
@@ -173,7 +194,9 @@ body {
 
 #services .container {
 	justify-content: space-between;
+	display: grid;
 	display: flex;
+	grid-template-columns: 1fr 1fr 1fr;
 	padding : 2em 0;
 
 }
@@ -192,7 +215,7 @@ body {
 
 #contact {
 	margin: auto;
-	background-color: #D8D3A8 ;
+	background-color: white ;
 	position: relative;
 	padding-inline: 100px;
 	padding-block: 100px;
@@ -203,7 +226,7 @@ body {
 }
 .picture.right::before {
 	content: ' ';
-	background-color: #BEB45A;
+	background-color: #1C6474;
 	width: 374px;
 	height: 329px;
 	position: absolute;
@@ -240,7 +263,7 @@ form textarea {
 	margin-bottom: 20px;
 }
 input[type="submit"] {
-	background-color: #BEB45A;
+	background-color: #1C6474;
 	padding: .5em 1em
 }
 
@@ -301,6 +324,7 @@ input[type="submit"] {
 		right: 0;
 		left: auto;
 		z-index: 0;
+		display: none;
 	}
 
 	#contact .container {
@@ -336,6 +360,9 @@ input[type="submit"] {
 	.picture.left::before, .picture.right::before {
 		height: 150px;
 	}
+	.picture.right{
+		display: none;
+	}
 	#services .container {
 		align-items: center;
 	}
@@ -352,5 +379,11 @@ input[type="submit"] {
 	.picture {
 		width: 80%;
 	}
+
+	.gallery{
+		display: grid;
+		grid-template-columns: 1fr;
+
 }
 
+}

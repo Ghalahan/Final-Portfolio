@@ -3,15 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Site de Nina Carducci, photographe professionnelle spécialisée dans les portraits, les mariages et les événements. Découvrez son portfolio et ses services.">
-    <meta name="keywords" content="photographe, portrait, mariage, galerie, services photo, retouche photo">
-    <!-- Ajout de titre pour le référencement -->
-    <title>Nina Carducci - Photographe</title>
+    <meta name="description" content="Site de Erwann RIVAUD, Intégrateur Web, offrant de la création de site professionels avec HTML, CSS, Javascript et React. Découvrez son portfolio et ses services.">
+    <meta name="keywords" content="html, css, javascript, react">
+    <title>Erwann RIVAUD - Intégrateur Web</title>
 
     <!-- Préconnexion et préchargement -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" href="./assets/images/slider/ryoji-iwata-unsplash-1920.webp" as="image" type="image/webp">
 
     <!-- Feuilles de style -->
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap_modified_lighter.min.css">
@@ -20,282 +18,119 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 
-    <!-- Schema.org JSON-LD -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "WebPage",
-          "@id": "https://ghalahan.github.io/ninacarducci/",
-          "url": "https://ghalahan.github.io/ninacarducci/",
-          "description": "Nina Carducci, photographe professionnelle à Bordeaux, France, offre des services de photographie pour mariages, concerts, portraits et événements d'entreprise. Découvrez son portfolio et réservez votre séance aujourd'hui.",
-          "datePublished": "2024-07-29T00:00:00+00:00",
-          "dateModified": "2024-07-29T00:00:00+00:00",
-          "inLanguage": "fr-FR"
-        },
-        {
-          "@type": "BreadcrumbList",
-          "@id": "https://ghalahan.github.io/ninacarducci/#breadcrumb",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "name": "Home"
-            }
-          ]
-        },
-        {
-          "@type": "WebSite",
-          "@id": "https://ghalahan.github.io/ninacarducci/#website",
-          "url": "https://ghalahan.github.io/ninacarducci/",
-          "name": "Photographie Professionnelle | Nina Carducci",
-          "description": "Site officiel de Nina Carducci, photographe professionnelle à Bordeaux, France, offrant des services variés de photographie.",
-          "potentialAction": [
-            {
-              "@type": "SearchAction",
-              "target": {
-                "@type": "EntryPoint",
-                "urlTemplate": "https://ghalahan.github.io/ninacarducci/?s={search_term_string}"
-              },
-              "query-input": "required name=search_term_string"
-            }
-          ],
-          "inLanguage": "fr-FR"
-        },
-        {
-          "@type": "CreativeWorkSeries",
-          "name": "Photographie Professionnelle | Nina Carducci",
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "5",
-            "ratingCount": "36"
-          }
-        },
-        {
-          "@type": "Person",
-          "@id": "https://ghalahan.github.io/ninacarducci/#person",
-          "name": "Nina Carducci",
-          "description": "Nina Carducci, photographe professionnelle à Bordeaux, France, offre des services de photographie pour mariages, concerts, portraits et événements d'entreprise. Découvrez son portfolio et réservez votre séance aujourd'hui.",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Bordeaux",
-            "addressRegion": "Aquitaine",
-            "postalCode": "33200",
-            "streetAddress": "68 avenue Alsace-Lorraine",
-            "addressCountry": "FR"
-          },
-          "email": "ninacarducci21@gmail.com",
-          "jobTitle": "Photographe",
-          "telephone": "05 56 67 78 89",
-          "image": {
-            "@type": "ImageObject",
-            "url": "https://ghalahan.github.io/ninacarducci/image/Nina-Carducci-500",
-            "caption": "Nina Carducci"
-          },
-          "sameAs": [
-            "https://ghalahan.github.io/ninacarducci/",
-            "https://www.instagram.com/ninacarducci.photo/"
-          ],
-          "url": "https://ghalahan.github.io/ninacarducci/"
-        },
-        {
-          "@type": "LocalBusiness",
-          "name": "Nina Carducci",
-          "image": "https://ghalahan.github.io/assets/images/slider/ryoji-iwata-unsplash-1920.webp",
-          "@id": "https://ghalahan.github.io/ninacarducci/#localbusiness",
-          "url": "https://ghalahan.github.io/ninacarducci/",
-          "telephone": "05 56 67 78 89",
-          "priceRange": "$$$",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "68 Avenue Alsace-Lorraine",
-            "addressLocality": "Bordeaux",
-            "postalCode": "33200",
-            "addressCountry": "FR"
-          },
-          "openingHoursSpecification": {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday"
-            ],
-            "opens": "10:00",
-            "closes": "19:00"
-          },
-          "sameAs": "https://www.instagram.com/ninacarducci.photo/"
-        }
-      ]
-    }
-    </script>
-
-    <meta name="google-site-verification" content="O2lVEAZU6oLZF9deWRX6t5yPJcZoy45TVQXTfds4MpM" />	
-
-    <!-- Open Graph meta tags réseaux sociaux -->
-    <meta property="og:locale" content="fr_FR">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Photographe Professionnelle en France - Nina Carducci">
-    <meta property="og:description" content="Nina Carducci, photographe professionnelle en France, offre des services de photographie pour mariages, portraits et événements. Découvrez son portfolio et réservez votre séance aujourd'hui.">
-    <meta property="og:url" content="https://ghalahan.github.io/ninacarducci/">
-    <meta property="og:site_name" content="Photographe Professionnelle en France">
-    <meta property="og:image" content="https://ghalahan.github.io/ninacarducci/assets/images/slider/edward-cisneros-unsplash-1920.webp">
-    <!-- Affichage pour les réseaux sociaux -->
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:image:type" content="image/webp">
-
-    <!-- Meta tag Robots -->
-    <meta name="robots" content="index, follow">
-    <!-- Meta tag pour montrer l'URL canonique -->
-    <link rel="canonical" href="https://ghalahan.github.io/ninacarducci/">
-
-    <!-- Meta tags de Twitter Cards -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Photographe Professionnelle en France - Nina Carducci">
-    <meta name="twitter:description" content="Nina Carducci, photographe professionnelle en France, offre des services de photographie pour mariages, portraits et événements. Découvrez son portfolio et réservez votre séance aujourd'hui.">
-    <meta name="twitter:image" content="https://ghalahan.github.io/ninacarducci/assets/images/slider/edward-cisneros-unsplash-1920.webp">
-    <meta name="twitter:site" content="@ninacarducci">
-    <meta name="twitter:creator" content="@ninacarducci">
 </head>
 
 <body>
     <header>
         <div class="top-header">
-            <h1 class="name">Nina Carducci</h1>
+            <h1 class="name">Erwann RIVAUD</h1>
             <nav class="nav">
                 <ul>
-                    <li><a href="#about">À propos</a></li>
-                    <li><a href="#gallery">Galerie</a></li>
-                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Mes projets</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank">
-                        <img src="assets/images/instagram.webp" alt="Instagram">
-                    </a></li>
+                    
                 </ul>
             </nav>
         </div>
 
-        <div id="header">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./assets/images/slider/ryoji-iwata-unsplash-1920.webp" class="d-block w-100" alt="Photographie Business" loading="lazy" width="1920" height="700">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./assets/images/slider/nicholas-green-unsplash-1920.webp" class="d-block w-100" alt="Photographie Concert" loading="lazy" width="1920" height="700">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./assets/images/slider/edward-cisneros-unsplash-1920.webp" class="d-block w-100" alt="Photographie Mariage" loading="lazy" width="1920" height="700">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Précédent</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Suivant</span>
-                </button>
-            </div>
-        </div>
-    </header>
-
     <main>
         <section id="about">
             <div class="picture left">
-                <img src="./assets/images/Nina-Carducci-500.webp" alt="Nina Carducci">
+                <img src="./assets/images/photo-erwann.jpg" alt="Erwann RIVAUD">
             </div>
             <div id="about-me">
-                <h2 class="about-me__title">À propos de moi</h2>
-                <h6 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h6>
-                <p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre. C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
+                <h2 class="about-me__title">Bonjour, je suis Erwann RIVAUD</h2>
+                <p class="about-me__introduction">Apprenti Intégrateur Web chez OpenClassrooms depuis 1 an et demi,
+                     je conçois et développe des sites web en respectant les bonnes pratiques du développement et du référencement. </p>
+                <p>  De l’analyse du cahier des charges à la mise en ligne, je prends en charge l’intégration des interfaces utilisateur en garantissant une expérience fluide et accessible sur tous les supports.
+
+                    Je maîtrise HTML et CSS pour structurer et styliser les pages web, ainsi que JavaScript et React pour créer des interfaces dynamiques et interactives. Grâce à mon expertise en responsive design, j’assure une adaptation optimale des sites sur mobiles, tablettes et desktops.
+                    
+                    Passionné par le web et les nouvelles technologies, je suis toujours à la recherche de nouvelles compétences pour perfectionner mon code et optimiser l’expérience utilisateur. </p>
             </div>
         </section>
 
         <section id="gallery">
             <h2 class="title">Portfolio</h2>
             <div class="container py-3">
-                <div class="gallery" style="display: none">
-                    <img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-unsplash-600.webp" alt="Concert Image 1" loading="lazy">
-                    <img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-unsplash-600.webp" alt="Entreprise Image 1" loading="lazy">
-                    <img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-unsplash-600.webp" alt="Entreprise Image 2" loading="lazy">
-                    <img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-unsplash-600.webp" alt="Mariage Image 1" loading="lazy">
-                    <img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-unsplash-600.webp" alt="Portrait Image 1" loading="lazy">
-                    <img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-unsplash-600.webp" alt="Mariage Image 2" loading="lazy">
-                    <img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg-unsplash -600.webp" alt="Portrait Image 2" loading="lazy">
-                    <img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-unsplash-600.webp" alt="Concert Image 2" loading="lazy">
-                    <img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-unsplash-600.webp" alt="Entreprise Image 3" loading="lazy">
-                </div>
+                <div class="gallery" id="portfolio" style>
+                    <div>
+                        <h3>Booki</h3>
+                        <!--lien du repo github dans href-->
+                       <a href="https://github.com/Ghalahan/Booki"> <img src="./assets/images/Booki_page-0001.jpg" alt="Screenshot du site internet Booki"></a>
+                        <p>Site de booking d'hotel en ligne (HTML et CSS)</p>
+                    </div>
+                    <div>
+                        <h3>Print it!</h3>
+                        <!--lien du repo github dans href-->
+                       <a href="https://github.com/Ghalahan/Print-it-.git"> <img src="./assets/images/Print it ! - Impressions d'entreprise_page-0001.jpg"  alt="Screenshot du site internet Print it!"></a>
+                        <p>Site d'impression en ligne (JavaScript)</p>
+                    </div>
+                    <div>
+                        <h3>Sophie Bluel</h3>
+                        <!--lien du repo github dans href-->
+                       <a href="https://github.com/Ghalahan/Erwann_RIVAUD_Projet_N-6_Cr-ez_une_page_web_dynamique_avec_JavaScript.git"> <img src="./assets/images/Sophie Bluel - Architecte d'intérieur_page-0001.jpg"  alt="Screenshot du site internet de Sophie Bluel"></a>
+                        <p>Site vitrine de l'architecte Sophie Bluel (JavaScript)</p>
+                    </div>
+                    <div>
+                        <h3>Ohmyfood</h3>
+                        <!--lien du repo github dans href-->
+                       <a href="https://github.com/Ghalahan/Ohmyfood.git"> <img src="./assets/images/Ohmyfood - Homepage_page-0001.jpg"  alt="Screenshot du site internet Ohmyfood"></a>
+                        <p>Site de commande de plats en ligne (CSS)</p>
+                    </div>
+                    <div>
+                        <h3>724 Events</h3>
+                        <!--lien du repo github dans href-->
+                       <a href="https://github.com/Ghalahan/Debuggez-une-application-React.JS-main.git"> <img src="./assets/images/React App_page-0001.jpg" alt="Screenshot du site internet 724 Events"></a>
+                        <p>Site d'organisation d'évènements (React)</p>
+                    </div>
+                    <div>
+                        <h3>Kasa</h3>
+                        <!--lien du repo github dans href-->
+                       <a href="https://github.com/Ghalahan/kasa-openclassrooms.git"> <img src="./assets/images/Kasa_page-0001.jpg"  alt="Screenshot du site internet Kasa"></a>
+                        <p>Site de réservation d'hôtels en ligne (React)</p>
+                    </div>
+                    </div>
             </div>
-            <div class="quote">
-                <figure>
-                    <blockquote>
-                        <h2 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</h2>
-                    </blockquote>
-                    <figcaption class="quote__author">- Richard Avedon</figcaption>
-                </figure>
-            </div>
+           
         </section>
 
         <section id="services">
-            <h2 class="title">Mes services</h2>
+            <h2 class="title">Mes compétences</h2>
             <div class="container">
+                
                 <div class="service">
                     <div class="service__description">
-                        <h3>Shooting photo</h3>
-                        <p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos.</p>
+                        <h3>HTML et CSS</h3>
+                        <p>En tant qu’intégrateur web, je maîtrise HTML et CSS , deux piliers fondamentaux du développement web moderne.
+                             Ces technologies me permettent de concevoir des interfaces web structurées, esthétiques et adaptées aux standards actuels.</p>
                     </div>
-                    <div class="service__price">
-                        <h4>350€/demi-journée</h4>
-                        <span>Matériel, déplacement inclus</span>
+                    <div>
                     </div>
                 </div>
                 <div class="service">
                     <div class="service__description">
-                        <h3>Retouches</h3>
-                        <p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficiez d’un rendu optimal pour vos publications.</p>
+                        <h3>JavaScript</h3>
+                        <p>JavaScript est un langage indispensable dans le développement web moderne, permettant d’ajouter interactivité, dynamisme et réactivité aux interfaces utilisateur. En tant qu’intégrateur web, 
+                            je l’utilise pour améliorer l’expérience utilisateur et optimiser les performances des sites web.</p>
                     </div>
-                    <div class="service__price">
-                        <h4>50€/photo</h4>
-                        <span>2 AR par photo</span>
-                    </div>
+                    <div></div>
                 </div>
                 <div class="service">
                     <div class="service__description">
-                        <h3>Album photos</h3>
-                        <p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé.</p>
+                        <h3>React</h3>
+                        <p>React est une bibliothèque JavaScript puissante et flexible qui révolutionne la façon de concevoir les interfaces web. Grâce à ma maîtrise de React.js, je développe des applications rapides, interactives et modulaires, offrant une expérience utilisateur fluide et performante.</p>
                     </div>
-                    <div class="service__price">
-                        <h4>400€ album A4</h4>
-                        <span>30 pages recto/verso</span>
-                    </div>
+                    <div></div>
                 </div>
             </div>
         </section>
-
-        <div class="quote">
-            <figure>
-                <blockquote>
-                    <h2 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie.</h2>
-                </blockquote>
-                <figcaption class="quote__author">- Richard Avedon</figcaption>
-            </figure>
-        </div>
-
         <section id="contact">
             <div class="container">
                 <div class="form-container">
-                    <h3>Une question ? Une demande de devis ?</h3>
+                    <h3>Une question ?</h3>
                     <p>N’hésitez pas à m’écrire ! Je vous répondrai en moins de 24 heures.</p>
-                    <form action="#" method="post">
+                    <form action="mailto:exemple@mail.com" method="post">
                         <label for="nom">Nom</label>
                         <input type="text" name="nom" id="nom" required>
                         <label for="email">Email</label>
@@ -306,18 +141,25 @@
                     </form>
                 </div>
                 <div class="picture right">
-                    <img src="./assets/images/camera-500.webp" alt="Camera">
+                    <img src="./assets/images/programming-background-with-person-working-with-codes-computer.jpg" alt="Personne qui code">
                 </div>
             </div>
         </section>
+
+        <div class="quote">
+            <figure>
+                <figcaption class="quote__author"> Contactez-moi via exemple@mail.com ou par téléphone au 01.02.03.04.05</figcaption>
+            </figure>
+        </div>
     </main>
 
 
-	<!-- Scripts JavaScript placés tout en bas  et defer-->
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous" defer></script>
-    <script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
-    <script src="./assets/maugallery.js" defer></script>
-    <script src="./assets/scripts.js" defer></script>
+
+
+
+
+
+
 </body>
 </html>
 
